@@ -4,8 +4,8 @@
   transition: background-color 0.3s ease-in-out;
 }
 
-.svg-button:hover {
-  background-color: purple;
+.svg-button svg rect:hover {
+  fill: purple;
 }
 
 /* Animation for the button color change */
