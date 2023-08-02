@@ -1,0 +1,26 @@
+/* CSS Styles for the button */
+.svg-button {
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.svg-button:hover {
+  background-color: purple;
+}
+
+/* Animation for the button color change */
+@keyframes changeColorAnimation {
+  0% {
+    fill: blue;
+  }
+  50% {
+    fill: green;
+  }
+  100% {
+    fill: red;
+  }
+}
+
+.change-color-animation {
+  animation: changeColorAnimation 2s infinite;
+}
